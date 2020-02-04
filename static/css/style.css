@@ -1,0 +1,56 @@
+.bg-purple{
+    background-color: #394761!important;
+}
+
+.bg-sea-green{
+    background-color: #1B998B!important;
+}
+
+.bg-sky-blue{
+    background-color: #46ACC2!important;
+}
+
+.bg-dark-head{
+    background-color: #2D2D2A!important;
+}
+
+.display-5 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.fa {
+  margin: 7%;
+  padding: 3%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  border-width: 2em;
+  font-size: 2em!important;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+     background: #55ACEE;
+     color: white;
+}
+
+.fa-twitch {
+    background: #9147ff;
+    color: white;
+}
+
+.fa-github-alt {
+    background: #2b3137;
+    color: white;
+}

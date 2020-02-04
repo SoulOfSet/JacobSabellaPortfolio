@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jacob Sabella - Software Developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% include 'partials/header.html' %}
+    </head>
+    <body>
+        <section class="page-section bg-purple" id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <p class="text-white mt-4 display-1">{{ name }}</p>
+                        <p class="text-white-50 mb-4 display-3">{{ title }}</p>
+                        <hr class="divider light my-4">
+                        <img class="rounded-circle img-fluid" style="max-width: 50%; height: auto;" src="{{url_for('static', filename='img/jacob.jpg')}}" />
+                        <hr class="divider light my-4">
+                        <code class="text-white-50 pb-5" style="font-size: 1.2em">{{ description }}</code>
+                        <p class="text-white mb-4 display-3" ></p>
+                        <!-- Add font awesome icons -->
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-github-alt"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-twitch"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section bg-sea-green" id="projects">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-4">Projects</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section bg-sky-blue" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-4">Contact</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

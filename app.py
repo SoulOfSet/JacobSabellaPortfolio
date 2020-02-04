@@ -3,7 +3,7 @@ from flask import Flask
 from routes.portfolio import portfolio_routes
 
 app = Flask(__name__)
-app.register_blueprint(portfolio_routes, url_prefix='/portfolio')
+app.register_blueprint(portfolio_routes, url_prefix='/')
 
 # Start App
 if __name__ == "__main__":
