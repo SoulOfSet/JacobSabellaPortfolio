@@ -14,14 +14,22 @@
     background-color: #2D2D2A!important;
 }
 
+.bg-card-back{
+    background-color: #170A1C!important;
+}
+
 .display-5 {
     font-size: 2rem;
     font-weight: 300;
     line-height: 1.2;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .fa {
-  margin: 7%;
+  margin: 4%;
   padding: 3%;
   text-align: center;
   text-decoration: none;
@@ -53,4 +61,13 @@
 .fa-github-alt {
     background: #2b3137;
     color: white;
+}
+
+.fa-envelope {
+    background: #d93025;
+    color: white;
+}
+
+body,html {
+  height: 100%;
 }
